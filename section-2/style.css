@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(26, 23, 22);
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 400%;
+}
+
+h1:hover, h1:active{
+        color: coral;
+        }
+
+ol{  
+    font-size: 300%;
+    text-align: center;;
+}
+li{
+    font-size: .5em;
+    list-style-position: inside;
+    text-align: center;
+}
+ol > li:hover, ol > li:active{
+        color: coral;
+        font-weight: bold;
+        text-decoration: underline;
+        }
+
+hr{
+    border: 3px solid rgb(46, 46, 46);
+    width: 80%;
+}
+
+footer :hover, footer :active{
+    color: orangered;
+}
+
+a:hover, a:active{
+    color: coral;
+    font-size: 2em;
+}
+
